@@ -1,2 +1,1 @@
-# Proyecto-Concurso1-Salvador
-Proyecto Concurso ByJus
+# Juegos-compatibles-con-dispositivos
