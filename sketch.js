@@ -64,7 +64,7 @@ function setup(){
   pez.scale=2
   pez.setCollider("rectangle", -20,1,40,40);
   
-  // pez.debug=true 
+   // pez.debug=true 
     
   arena_cofre = createSprite(width/5.2  , height/1.5, 700,10);
   arena_cofre.addImage("arena_cofre", arena_cofreImg);
@@ -177,7 +177,7 @@ function draw(){
     
    
     
-  }
+  
   
   pez.collide(sueloInvisible);
   
