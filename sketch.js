@@ -64,7 +64,7 @@ function setup(){
   pez.scale=2
   pez.setCollider("rectangle", -20,1,40,40);
   
-   pez.debug=true 
+  //pez.debug=true 
     
   arena_cofre = createSprite(width/5.2  , height/1.5, 700,10);
   arena_cofre.addImage("arena_cofre", arena_cofreImg);
@@ -271,7 +271,7 @@ function crearTiburonesG(){
     tiburonG.velocityX = -(6 + 5.5*frameCount/300);
     tiburonG.velocityY = + (3 + 2.5*frameCount/300);
     tiburonG.lifetime=1100;
-    tiburonG.debug = true;
+    //tiburonG.debug = true;
     tiburonG.setCollider("rectangle", 1,1,20,14);
     grupoTiburonesG.add(tiburonG);
   }
@@ -285,7 +285,7 @@ function crearTiburonesH(){
     tiburonH.velocityX = -(7 + 5.5*frameCount/300);
     tiburonH.velocityY = - (3 + 3*frameCount/300);
     tiburonH.lifetime=800;
-    tiburonH.debug = true;
+    //tiburonH.debug = true;
     tiburonH.setCollider("rectangle", 1,1,20,14);
     grupoTiburonesH.add(tiburonH);
   }
@@ -301,7 +301,7 @@ function crearDelfines(){
     delfin.lifetime=1100;
     delfin.setCollider("rectangle", 8,1,20,14);
     grupoDelfines.add(delfin);
-    delfin.debug = true;
+    //delfin.debug = true;
   
   }
 
